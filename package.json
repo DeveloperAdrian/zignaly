@@ -1,0 +1,19 @@
+{
+  "name": "exercice-1-zignaly",
+  "version": "1.0.0",
+  "description": "Api Zignaly",
+  "main": "Api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node Server.js",
+    "dev": "nodemon Server.js"
+  },
+  "author": "Adrian Hernandez",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3"
+  }
+}
